@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- GitHub_Repo and GitHub_Owner can only be set for GitHub repositories. --></errorMessage>
+        <name>sf_devops__GitHub_Properties</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field cannot be modified. --></errorMessage>
+        <name>sf_devops__No_Property_Changes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repo and Owner are required for GitHub repositories. --></errorMessage>
+        <name>sf_devops__Require_GitHub_Properties</name>
+    </validationRules>
+</CustomObjectTranslation>

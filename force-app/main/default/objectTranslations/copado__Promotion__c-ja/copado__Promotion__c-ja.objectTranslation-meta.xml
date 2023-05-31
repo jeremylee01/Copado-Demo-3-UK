@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Promotion --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- SFDX Extension Fields --></label>
+        <name>cmcSf__SFDX_Extension_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Custom Fields --></label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ManageBranchesDialog --></label>
+        <name>copado__ManageBranchesDialog</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Manager --></label>
+        <name>copado__Pipeline_Manager</name>
+    </fieldSets>
+    <nameFieldLabel><!-- Promotion Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Back Promotions to Scratch Orgs are not allowed --></errorMessage>
+        <name>copado__Scratch_Orgs_Disabled_for_Back_Promoting</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Copado_AI_Companion --></label>
+        <name>copadoAiHelper__Copado_AI_Companion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>copado__Rollback</name>
+    </webLinks>
+</CustomObjectTranslation>

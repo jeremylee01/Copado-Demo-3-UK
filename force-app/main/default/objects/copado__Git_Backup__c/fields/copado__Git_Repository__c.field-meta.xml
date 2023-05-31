@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Git_Repository__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Git Repository linked to the Git Snapshot. The specified Branch must exist in the Git Repository.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Git Repository linked to the Git Snapshot. The specified Branch must exist in the Git Repository.</inlineHelpText>
+    <label>Git Repository</label>
+    <referenceTo>copado__Git_Repository__c</referenceTo>
+    <relationshipLabel>Git Snapshots</relationshipLabel>
+    <relationshipName>Git_Backups</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Credential --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <nameFieldLabel><!-- Credential Name --></nameFieldLabel>
+    <webLinks>
+        <label><!-- Add_to_Deployment --></label>
+        <name>copado__Add_to_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate_Org --></label>
+        <name>copado__Validate_Org</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>デプロイ時に選択したユーザーストーリーの順番を変更する場合のみ、このフィールドに入力してください。(使用例: name asc, backlog_rank__c desc)</help>
+    <label><!-- Order User Stories by --></label>
+    <name>copado__Order_by__c</name>
+</CustomFieldTranslation>

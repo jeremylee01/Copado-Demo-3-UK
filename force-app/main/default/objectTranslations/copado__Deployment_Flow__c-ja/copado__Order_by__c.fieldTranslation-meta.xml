@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは、デプロイ時に選択したユーザーストーリーの順序を変更する場合のみ入力してください。
+この値が設定されている場合、関連するプロモーションレコードの作成時に並び順フィールドが事前に入力されます。(使用例: 名前の昇順)</help>
+    <label><!-- Order User Stories by --></label>
+    <name>copado__Order_by__c</name>
+</CustomFieldTranslation>

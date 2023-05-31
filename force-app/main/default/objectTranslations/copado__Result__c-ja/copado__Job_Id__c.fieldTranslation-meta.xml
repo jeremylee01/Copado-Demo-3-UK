@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ジョブの一意の識別子。これは、この結果を外部ジョブでマッピングするための外部IDです。</help>
+    <label><!-- External Job ID --></label>
+    <name>copado__Job_Id__c</name>
+</CustomFieldTranslation>

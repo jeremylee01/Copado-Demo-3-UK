@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Connector that maps the payload and parameters between the source and automated actions.Select &quot;Custom&quot; if you want to specify a custom connector class --></help>
+    <label><!-- Automation Connector --></label>
+    <name>copado__Automation_Connector__c</name>
+</CustomFieldTranslation>

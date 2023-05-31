@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Fill that field only if you want to change the selected user stories order on deployment.
+This value will prefill the order by field on related Promotion record creation if set. (usage exp: name asc) --></help>
+    <label><!-- Order User Stories by --></label>
+    <name>copado__Order_by__c</name>
+</CustomFieldTranslation>

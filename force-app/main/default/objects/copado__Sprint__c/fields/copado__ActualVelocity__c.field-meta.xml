@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ActualVelocity__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Calculated by adding up the points of User Stories based on their status changes to Completed. This can be changed in the &quot;Actual Velocity Statuses&quot; Custom Metadata Type. Refer to Copado Docs for more info.</inlineHelpText>
+    <label>Actual Velocity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,29 @@
+:host {
+    --sds-c-textarea-sizing-min-height: 14rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.bubbles {
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble {
+    background-color: #E5E5E5;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+    padding: 0.25rem 0.5rem;
+    margin-right: 30%;
+}
+
+a {
+    font-style: italic;
+    opacity: 0.6;
+}

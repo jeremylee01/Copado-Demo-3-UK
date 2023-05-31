@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Recalculated with every change made to the points assigned to all User Stories in the Sprint. It also gets recalculated when new User Stories are added. --></help>
+    <label><!-- Planned Velocity --></label>
+    <name>copado__PlannedVelocity__c</name>
+</CustomFieldTranslation>

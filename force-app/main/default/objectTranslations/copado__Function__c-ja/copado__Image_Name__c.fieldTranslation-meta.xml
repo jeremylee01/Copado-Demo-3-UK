@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Copado が提供するDockerイメージ名。利用可能なイメージパスは、Copadoのドキュメントに記載されています。イメージ名は、/で区切られた名前の構成要素からなり、 レジストリのホスト名がその前に置かれます。</help>
+    <label><!-- Image Name --></label>
+    <name>copado__Image_Name__c</name>
+</CustomFieldTranslation>

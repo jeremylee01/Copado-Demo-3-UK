@@ -1,0 +1,65 @@
+<template>
+    <template lwc:if={hasMessages}>
+        <div class="bubbles">
+            <template for:each={messages} for:item="message">
+                <c-ai-message
+                    key={message.timestamp}
+                    username={username}
+                    timestamp={message.timestamp}
+                    role={message.role}
+                    more={message.more}
+                    content={message.content}>
+                </c-ai-message>
+            </template>
+            <template if:true={isLoading}>
+                <div class="bubble slds-spinner_container slds-is-relative">
+                    <div role="status" class="slds-spinner slds-spinner_medium">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </template>
+    <template lwc:else>
+        <lightning-combobox
+            name="question"
+            label="Select a topic to start the conversation. Copado will not share any information that you do not send as part of this initial question."
+            placeholder="... the topics contain references to Copado data in your organization"
+            value={selectedQuestion}
+            options={availableQuestions}
+            onchange={handleSelectQuestion}>
+        </lightning-combobox>
+        <!-- TODO: add scroll indicator -->
+    </template>
+
+    <lightning-textarea
+        name="message"
+        data-id="message"
+        label="Ask OpenAI..."
+        placeholder="review/edit the information to be sent..."
+        disabled={isLoading}
+        value={userMessage}
+        onchange={handleUserMesssage}>
+    </lightning-textarea>
+
+    <div class="actions slds-p-vertical_x-small slds-m-vertical_x-small slds-border_bottom">
+        <lightning-button
+            class="slds-m-right_x-small"
+            disabled={isLoading}
+            label="Send"
+            variant="brand"
+            onclick={handleSubmit}>
+        </lightning-button>
+        <lightning-button
+            disabled={isLoading}
+            label="Clear conversation"
+            variant="brand-outline"
+            onclick={handleClear}>
+        </lightning-button>
+    </div>
+
+    <!-- TODO: add opacity -->
+    <a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAI privacy policy</a>
+</template>
