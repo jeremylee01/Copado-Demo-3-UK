@@ -1,0 +1,79 @@
+# Excluded Managed Package Metadata
+# Still allows customization, but doesn't track unchangeable files
+# Add all installed managed packages to this list
+
+# Excluded Managed Packages - non editable components
+# Copado Deployer base package
+**/classes/copado__*
+**/triggers/copado__*
+**/pages/copado__*
+
+# Copado CICD for 2nd generation / Copado DX
+**/classes/cmcSf__*
+**/triggers/cmcSf__*
+**/pages/cmcSf__*
+
+# Copado Quality Integration Framework
+**/classes/copadoQuality__*
+**/triggers/copadoQuality__*
+**/pages/copadoQuality__*
+
+# SF DevOps
+**/classes/sf_devops__*
+**/triggers/sf_devops__*
+**/pages/sf_devops__*
+
+# Excluded Metadata Types - Performance / Data-like
+**/documents/*
+**/dashboards/*
+**/installedPackages/*
+**/reports/*
+**/staticresources/*
+
+# Excluded Metadata Types - Security
+**/authprovider/*
+**/samlssoconfigs/*
+
+# Excluded Metadata Types - Obsolete as of API v44
+**/flowdefinitions/*
+
+# Default SFDX - Dreamhouse .gitignore content
+
+# Salesforce dev
+.sfdx/
+.localdevserver/
+
+# LWC VSCode autocomplete
+jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Eslint cache
+.eslintcache
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# VS Code project settings
+.vscode/*
+!.vscode/extensions.json
+.pmdCache
+/scan_results.csv
+/quickstart.sh
