@@ -21,9 +21,13 @@
                 <behavior>Required</behavior>
                 <field>UnitPrice</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Price_Book_Entry_Ext_Id__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
-        <style>TwoColumnsLeftToRight</style>
+        <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -42,6 +46,7 @@
     <multilineLayoutFields>IsActive</multilineLayoutFields>
     <multilineLayoutFields>Pricebook2Id</multilineLayoutFields>
     <multilineLayoutFields>UnitPrice</multilineLayoutFields>
+    <multilineLayoutFields>Price_Book_Entry_Ext_Id__c</multilineLayoutFields>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
